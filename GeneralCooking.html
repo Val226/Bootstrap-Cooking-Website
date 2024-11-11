@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's learn to cook together!</title><!--You'll find this in the tab name of the web page, will mention in video-->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!--Nav Bar-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Let's Learn to cook!</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="GeneralCooking.html">General Cooking</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="GeneralBaking.html">General Baking</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <img src="/Photos for Assignments/CookingClass.jpg" width="200" alt="Cooking Class Clipart">
+  <h2>Let's get to Cooking!</h2>
+  <p>
+    Let's be honest, if we didn't have anything to eat we wouldn't make it long. Food is arguably the most important thing to have in your life.
+    Cooking is not really an exact science as baking can be. Cooking is a lot of "a bit of this" "a dash of that", which is why so many people
+    have a hard time with cooking. When you leave each class, you'll have a recipe to share with your friends.
+  </p>
+
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="Photos for Assignments/AsianFoods.jpg" class="img-fluid rounded-start" alt="Asian Foods">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Asian Foods</h5>
+          <p class="card-text">
+            Asian foods have so much flavor and spices to it, as well as types. This class will go over Chinese food, Japanese food, 
+            Thai food, Vitameise food and more!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="Photos for Assignments/ItalianFood.jpg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Italian Foods</h5>
+          <p class="card-text">
+            Italian food is a very popular type of food. But did you know, Italian food is more than just pasta?
+            We will learn how to make homemade pasta, different types of pasta sauces and more!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="Photos for Assignments/MexicanFood.jpg" class="img-fluid rounded-start" alt="Mexican Food">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Spanish Food!</h5>
+          <p class="card-text">
+            This class is probably the biggest one we offer. We will learn food from every spanish speaking country.
+            Everything from Mexico, to Argentina, to Puerto Rico and Spain. Here we will learn as much of the cultures as we can,
+            while also making delicious food!
+          </p>
+          <p class="card-text"><small class="text-body-secondary">** Note: The food in this class gets spicy, sign up for this class at your discretion.</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="Photos for Assignments/CampingFood.jpg" class="img-fluid rounded-start" alt="Camping Food">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Camping Foods!</h5>
+          <p class="card-text">
+            Do you enjoy going camping? Are you tired of having the same basic meals? If you answered yes to both
+            questions, you are in the right place! We will start off indoors and learn how to prep for your outdoor meals.
+            We will then move to a safe, controlled area outdoors where you will learn to start and maintain a fire, as well
+            as how to cook the meals you prepped inside.
+          </p>
+          <p class="card-text"><small class="text-body-secondary">** Note: This class is only offered based on the weather.</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--This is a form asking for contact info & anything you'd like to learn-->
+  <h3>We'd love to hear from you!</h3>
+  <p>Please enter your info below so we can reach out and get you started with creating things in the kitchen!</p>
+  <form>
+    <div> <!--This basically creates a section/group of coding that belongs together-->
+      <label for="name">What's your name?</label>
+      <br>
+      <input type="text" name="name" required/>
+    </div>
+    
+    <div>
+      <label for="email">What is your email address?</label>
+      <br>
+      <input type="text" name="email" required />
+    </div>
+
+    <div>
+      <label for="phone">What phone number can we call you on?</label>
+      <br>
+      <input type="text" name="phone" required>
+    </div>
+
+    <div>
+      <label for="interests">What are you most interested in? Or what would you like to see us make in a class?</label>
+    </div> <!--This keeps the label above the text box-->
+    <div>
+      <textarea name="interests" rows="4" required></textarea> <!--This is a text box!-->
+    </div>
+        
+    <button type="submit" >Submit!</button> 
+    </div>
+</form>
+</section>
+<link src="node_modules/bootstrap/dist/js/bootstrap.bundle.js">
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's learn to cook together!</title><!--You'll find this in the tab name of the web page, will mention in video-->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!--Nav Bar-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Let's Learn to cook!</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="GeneralCooking.html">General Cooking</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="GeneralBaking.html">General Baking</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<img src="Photos for Assignments/BakingIngredients.jpg">
+<h2>Let's Learn to Bake!</h2>
+<p>Baking is an art, some would say it is a difficult art; Others don't agree. Our goal is to make the baking experience fun and stress-free</p>
+<p>You'll find there are many levels to cooking, and that is because things like sourdough bread takes more knowledge and practice than cookies. Our class levels are broken into different groups because of this, but they are reccomendations more than anything.</p>
+<p>Something to keep in mind: We will do our best to accommodate dietary restrictions, but we are not perfect. Please let your instructor know of any dietary restrictions you are working with.</p>
+<!--Cards for each baking level taught at my cooking school-->
+<div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="Photos for Assignments/ChocoCookies.jpg" class="img-fluid rounded-start" alt="Sweet Stuff">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Cookies & Bars (Level 1)</h5>
+          <p class="card-text">
+            Cookies & Bars are fun to learn and a great place to start if you're looking to get into baking. These are also great things 
+            to bring to your next potluck or party! Here we'll begin talking about the different ingredients and how they effect your recipes
+        </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="Photos for Assignments/RainbowCupcakeCake.jpg" class="img-fluid rounded-start" alt="Cupcakes">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Cakes & Cupcakes (Level 2)</h5>
+          <p class="card-text">
+            Some find cupcakes easier than cakes, some see it the other way around. Either way, you'll learn the different types of flours
+            you can use as well as go more indepth on the ingredients you'll use and their effects on your recipes.
+        </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="Photos for Assignments/Breads.jpg" class="img-fluid rounded-start" alt="Bread!">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Breads (Not sourdough) (Level 3)</h5>
+          <p class="card-text">
+            Breads are fun! Some call it annoying and stressful, but at the end of the day it is so rewarding to be able to show off your loaf of bread.
+            Here we will discuss the different types of breads, the flour options and the usual ingredients.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="Photos for Assignments/Breads.jpg" class="img-fluid rounded-start" alt="Bread">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Sourdough everything! (Level 4)</h5>
+          <p class="card-text">
+            Sourdough takes a lot of practice and experience. Here we will make a sourdough starter, learn how to feed and take care of it.
+            We will also discuss the different ingredients that make up sourdough bread vs. other sourdough things.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--This is a form asking for contact info & anything you'd like to learn-->
+  <h3>We'd love to hear from you!</h3>
+  <p>Please enter your info below so we can reach out and get you started with creating things in the kitchen!</p>
+  <form>
+    <div> <!--This basically creates a section/group of coding that belongs together-->
+      <label for="name">What's your name?</label>
+      <br>
+      <input type="text" name="name" required/>
+    </div>
+    
+    <div>
+      <label for="email">What is your email address?</label>
+      <br>
+      <input type="text" name="email" required />
+    </div>
+
+    <div>
+      <label for="phone">What phone number can we call you on?</label>
+      <br>
+      <input type="text" name="phone" required>
+    </div>
+
+    <div>
+      <label for="interests">What are you most interested in? Or what would you like to see us make in a class?</label>
+    </div> <!--This keeps the label above the text box-->
+    <div>
+      <textarea name="interests" rows="4" required></textarea> <!--This is a text box!-->
+    </div>
+        
+    <button type="submit" >Submit!</button> 
+    </div>
+</form>
+</section>
+<link src="node_modules/bootstrap/dist/js/bootstrap.bundle.js">
+</body>
+</html>
